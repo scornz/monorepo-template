@@ -17,9 +17,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@acme/app-mobile@workspace:apps/mobile":
+"@acme/app-mobile@workspace:frontend/apps/mobile":
   version: 0.0.0-use.local
-  resolution: "@acme/app-mobile@workspace:apps/mobile"
+  resolution: "@acme/app-mobile@workspace:frontend/apps/mobile"
   dependencies:
     "@acme/eslint-config": "npm:1.0.0"
     "@acme/feature-home": "npm:1.0.0"
@@ -39,9 +39,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@acme/app-web@workspace:apps/web":
+"@acme/app-web@workspace:frontend/apps/web":
   version: 0.0.0-use.local
-  resolution: "@acme/app-web@workspace:apps/web"
+  resolution: "@acme/app-web@workspace:frontend/apps/web"
   dependencies:
     "@acme/eslint-config": "npm:1.0.0"
     "@acme/feature-home": "npm:1.0.0"
@@ -56,9 +56,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@acme/eslint-config@npm:1.0.0, @acme/eslint-config@workspace:packages/eslint-config":
+"@acme/eslint-config@npm:1.0.0, @acme/eslint-config@workspace:frontend/packages/eslint-config":
   version: 0.0.0-use.local
-  resolution: "@acme/eslint-config@workspace:packages/eslint-config"
+  resolution: "@acme/eslint-config@workspace:frontend/packages/eslint-config"
   dependencies:
     "@typescript-eslint/eslint-plugin": "npm:^5.62.0"
     "@typescript-eslint/parser": "npm:^5.62.0"
@@ -69,9 +69,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@acme/feature-home@npm:1.0.0, @acme/feature-home@workspace:packages/feature-home":
+"@acme/feature-home@npm:1.0.0, @acme/feature-home@workspace:frontend/packages/feature-home":
   version: 0.0.0-use.local
-  resolution: "@acme/feature-home@workspace:packages/feature-home"
+  resolution: "@acme/feature-home@workspace:frontend/packages/feature-home"
   dependencies:
     "@acme/eslint-config": "npm:1.0.0"
     "@acme/ui": "npm:1.0.0"
@@ -110,9 +110,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@acme/ui@npm:1.0.0, @acme/ui@workspace:packages/ui":
+"@acme/ui@npm:1.0.0, @acme/ui@workspace:frontend/packages/ui":
   version: 0.0.0-use.local
-  resolution: "@acme/ui@workspace:packages/ui"
+  resolution: "@acme/ui@workspace:frontend/packages/ui"
   dependencies:
     "@acme/eslint-config": "npm:1.0.0"
     "@testing-library/react-native": "npm:^12.5.0"
