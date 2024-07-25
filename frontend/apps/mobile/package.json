@@ -16,8 +16,9 @@
   "dependencies": {
     "@acme/feature-home": "1.0.0",
     "@expo/metro-runtime": "^3.2.1",
+    "eas-cli": "^10.2.1",
     "expo": "^51.0.17",
-    "expo-dev-client": "~4.0.19",
+    "expo-dev-client": "~4.0.20",
     "expo-status-bar": "~1.12.1",
     "expo-updates": "~0.25.18",
     "react": "18.2.0",

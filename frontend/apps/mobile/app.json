@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "expo-monorepo",
-    "slug": "expo-monorepo",
+    "name": "scornz-monorepo",
+    "slug": "scornz-monorepo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,7 +17,7 @@
       "**/*"
     ],
     "ios": {
-      "bundleIdentifier": "com.bycedric.expomonorepo",
+      "bundleIdentifier": "com.scornz.monorepotemplate",
       "buildNumber": "1.0.0",
       "supportsTablet": true
     },
@@ -30,6 +30,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bd9b88c4-b332-41c6-8f36-a15a2c8ee92a"
+      }
     }
   }
 }

@@ -17,6 +17,34 @@
         "node_modules/.cache/metro/**"
       ]
     },
+    "ios": {
+      "dependsOn": ["build"],
+      "cache": false,
+      "interactive": true,
+      "outputs": [
+        "build/**",
+        "node_modules/.cache/metro/**"
+      ]
+    },
+    "eas-build:android": {
+      "dependsOn": ["build"],
+      "cache": false,
+      "interactive": true,
+      "outputs": [
+        "build/**",
+        "node_modules/.cache/metro/**"
+      ]
+    },
+    "eas-build": {
+      "dependsOn": ["eas-build:ios", "eas-build:android"],
+      "cache": false,
+      "interactive": true,
+      "outputs": [
+        "build/**",
+        "node_modules/.cache/metro/**",
+        "artifacts/**"
+      ]
+    },
     "dev": {
       "cache": false,
       "persistent": true

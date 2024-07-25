@@ -12,6 +12,8 @@
     "lint": "turbo lint",
     "test": "turbo test",
     "build": "turbo build",
+    "ios": "turbo ios",
+    "android": "turbo android",
     "build:mobile": "turbo build --filter=\"...{./frontend/apps/mobile}\"",
     "build:web": "turbo build --filter=\"...{./frontend/apps/web}\"",
     "prepare": "husky",
