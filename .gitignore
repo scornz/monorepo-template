@@ -1,7 +1,7 @@
 # Monorepo
-apps/*/credentials.json
-apps/*/build
-packages/*/build
+frontend/apps/*/credentials.json
+frontend/apps/*/build
+frontend/packages/*/build
 
 # Turborepo
 .turbo

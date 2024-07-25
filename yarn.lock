@@ -98,18 +98,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@acme/monorepo@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@acme/monorepo@workspace:."
-  dependencies:
-    "@commitlint/cli": "npm:^19.3.0"
-    "@commitlint/config-conventional": "npm:^19.2.2"
-    husky: "npm:^9.1.2"
-    turbo: "npm:^2.0.9"
-    typescript: "npm:^4.9.5"
-  languageName: unknown
-  linkType: soft
-
 "@acme/ui@npm:1.0.0, @acme/ui@workspace:frontend/packages/ui":
   version: 0.0.0-use.local
   resolution: "@acme/ui@workspace:frontend/packages/ui"
@@ -3112,6 +3100,18 @@ __metadata:
   checksum: 10c0/ec75d23fba30fc5f3303109181ce81a686f7b5660b6e06d454cd7b74a635bd68d5b28300ddd6e2a53b6cb10a876246e952e12fa058af32b2fa29b73744f00521
   languageName: node
   linkType: hard
+
+"@scornz/monorepo@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@scornz/monorepo@workspace:."
+  dependencies:
+    "@commitlint/cli": "npm:^19.3.0"
+    "@commitlint/config-conventional": "npm:^19.2.2"
+    husky: "npm:^9.1.2"
+    turbo: "npm:^2.0.9"
+    typescript: "npm:^4.9.5"
+  languageName: unknown
+  linkType: soft
 
 "@segment/loosely-validate-event@npm:^2.0.0":
   version: 2.0.0
