@@ -7,10 +7,14 @@
     "dev": "expo start -c",
     "lint": "eslint --ext js,ts,tsx .",
     "build": "expo export --output-dir ./build --platform all",
+    "eas:ios": "eas build --platform ios --local",
+    "eas:android": "eas build --platform android --local",
+    "eas:remote": "eas build --platform all",
     "start": "expo start",
     "android": "expo run:android",
     "ios": "expo run:ios",
     "web": "expo start --web",
+    "eas-build-pre-install": "corepack enable && yarn set version 4",
     "eas-build-post-install": "yarn --cwd ../.. run build:mobile"
   },
   "dependencies": {

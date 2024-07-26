@@ -17,7 +17,7 @@
         "node_modules/.cache/metro/**"
       ]
     },
-    "ios": {
+    "eas:ios": {
       "dependsOn": ["build"],
       "cache": false,
       "interactive": true,
@@ -26,23 +26,33 @@
         "node_modules/.cache/metro/**"
       ]
     },
-    "eas-build:android": {
+    "eas:android": {
       "dependsOn": ["build"],
       "cache": false,
       "interactive": true,
+      "passThroughEnv": ["ANDROID_HOME", "ANDROID_SDK_ROOT"],
       "outputs": [
         "build/**",
         "node_modules/.cache/metro/**"
       ]
     },
-    "eas-build": {
-      "dependsOn": ["eas-build:ios", "eas-build:android"],
+    "eas": {
+      "dependsOn": ["eas:ios", "eas:android"],
       "cache": false,
       "interactive": true,
       "outputs": [
         "build/**",
         "node_modules/.cache/metro/**",
         "artifacts/**"
+      ]
+    },
+    "eas:remote": {
+      "dependsOn": ["build"],
+      "cache": false,
+      "interactive": true,
+      "outputs": [
+        "build/**",
+        "node_modules/.cache/metro/**"
       ]
     },
     "dev": {
