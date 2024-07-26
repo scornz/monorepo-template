@@ -1,16 +1,13 @@
-import { HomeIcon, HomeScreen } from '@acme/feature-home';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View, Text } from 'react-native';
 
-import { HELLO } from '@/hello/constants';
+import { GLOBAL, THISTEST } from '@scornz/api';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <HomeIcon style={{ fontSize: 64 }} />
-      <HomeScreen />
       <StatusBar style="auto" />
-      <Text>{HELLO}</Text>
+      <Text>{GLOBAL}</Text>
     </View>
   );
 }

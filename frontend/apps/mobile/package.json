@@ -18,8 +18,8 @@
     "eas-build-post-install": "yarn --cwd ../.. run build:mobile"
   },
   "dependencies": {
-    "@acme/feature-home": "1.0.0",
     "@expo/metro-runtime": "^3.2.1",
+    "@scornz/api": "*",
     "eas-cli": "^10.2.1",
     "expo": "^51.0.17",
     "expo-dev-client": "~4.0.20",
@@ -31,14 +31,14 @@
     "react-native-web": "~0.19.11"
   },
   "devDependencies": {
-    "@acme/eslint-config": "1.0.0",
     "@babel/core": "^7.24.5",
+    "@scornz/eslint-config": "1.0.0",
     "@types/react": "~18.2.79",
     "@types/react-dom": "~18.2.25",
     "babel-preset-expo": "~11.0.11"
   },
   "eslintConfig": {
-    "extends": "@acme/eslint-config",
+    "extends": "@scornz/eslint-config",
     "ignorePatterns": [
       "node_modules",
       "build",

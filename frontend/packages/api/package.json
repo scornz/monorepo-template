@@ -1,10 +1,8 @@
 {
   "private": true,
-  "name": "@acme/feature-home",
+  "name": "@scornz/api",
   "version": "1.0.0",
-  "description": "Acme home feature for React (Native)",
-  "author": "Cedric van Putten <me@bycedric.com>",
-  "license": "MIT",
+  "description": "API interface for project",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
   "react-native": "./src/index.ts",
@@ -18,11 +16,8 @@
     "test": "jest",
     "build": "tsup --clean"
   },
-  "dependencies": {
-    "@acme/ui": "1.0.0"
-  },
   "devDependencies": {
-    "@acme/eslint-config": "1.0.0",
+    "@scornz/eslint-config": "1.0.0",
     "@testing-library/react-native": "^12.5.0",
     "@tsconfig/recommended": "^1.0.6",
     "@types/jest": "^29.5.12",
@@ -49,7 +44,7 @@
     }
   },
   "eslintConfig": {
-    "extends": "@acme/eslint-config",
+    "extends": "@scornz/eslint-config",
     "ignorePatterns": [
       "node_modules",
       "build"

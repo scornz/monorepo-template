@@ -17,76 +17,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@acme/eslint-config@npm:1.0.0, @acme/eslint-config@workspace:frontend/packages/eslint-config":
-  version: 0.0.0-use.local
-  resolution: "@acme/eslint-config@workspace:frontend/packages/eslint-config"
-  dependencies:
-    "@typescript-eslint/eslint-plugin": "npm:^5.62.0"
-    "@typescript-eslint/parser": "npm:^5.62.0"
-    eslint: "npm:^8.57.0"
-    eslint-config-universe: "npm:^12.1.0"
-    prettier: "npm:^3.2.5"
-    typescript: "npm:^5.5.4"
-  languageName: unknown
-  linkType: soft
-
-"@acme/feature-home@npm:1.0.0, @acme/feature-home@workspace:frontend/packages/feature-home":
-  version: 0.0.0-use.local
-  resolution: "@acme/feature-home@workspace:frontend/packages/feature-home"
-  dependencies:
-    "@acme/eslint-config": "npm:1.0.0"
-    "@acme/ui": "npm:1.0.0"
-    "@testing-library/react-native": "npm:^12.5.0"
-    "@tsconfig/recommended": "npm:^1.0.6"
-    "@types/jest": "npm:^29.5.12"
-    "@types/react": "npm:~18.2.43"
-    babel-preset-expo: "npm:~11.0.5"
-    jest: "npm:^29.7.0"
-    jest-expo: "npm:^51.0.1"
-    react: "npm:18.2.0"
-    react-native: "npm:0.74.2"
-    react-test-renderer: "npm:18.2.0"
-    tsup: "npm:^6.5.0"
-  peerDependencies:
-    react: "*"
-    react-native: "*"
-    react-native-web: "*"
-  peerDependenciesMeta:
-    react-native:
-      optional: true
-    react-native-web:
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@acme/ui@npm:1.0.0, @acme/ui@workspace:frontend/packages/ui":
-  version: 0.0.0-use.local
-  resolution: "@acme/ui@workspace:frontend/packages/ui"
-  dependencies:
-    "@acme/eslint-config": "npm:1.0.0"
-    "@testing-library/react-native": "npm:^12.5.0"
-    "@tsconfig/recommended": "npm:^1.0.6"
-    "@types/jest": "npm:^29.5.12"
-    "@types/react": "npm:~18.2.43"
-    babel-preset-expo: "npm:~11.0.5"
-    jest: "npm:^29.7.0"
-    jest-expo: "npm:^51.0.1"
-    react: "npm:18.2.0"
-    react-native: "npm:0.74.2"
-    react-test-renderer: "npm:18.2.0"
-    tsup: "npm:^6.5.0"
-  peerDependencies:
-    react: "*"
-    react-native: "*"
-    react-native-web: "*"
-  peerDependenciesMeta:
-    react-native:
-      optional: true
-    react-native-web:
-      optional: true
-  languageName: unknown
-  linkType: soft
-
 "@ampproject/remapping@npm:^2.2.0":
   version: 2.3.0
   resolution: "@ampproject/remapping@npm:2.3.0"
@@ -3737,14 +3667,55 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@scornz/api@npm:*, @scornz/api@workspace:frontend/packages/api":
+  version: 0.0.0-use.local
+  resolution: "@scornz/api@workspace:frontend/packages/api"
+  dependencies:
+    "@scornz/eslint-config": "npm:1.0.0"
+    "@testing-library/react-native": "npm:^12.5.0"
+    "@tsconfig/recommended": "npm:^1.0.6"
+    "@types/jest": "npm:^29.5.12"
+    "@types/react": "npm:~18.2.43"
+    babel-preset-expo: "npm:~11.0.5"
+    jest: "npm:^29.7.0"
+    jest-expo: "npm:^51.0.1"
+    react: "npm:18.2.0"
+    react-native: "npm:0.74.2"
+    react-test-renderer: "npm:18.2.0"
+    tsup: "npm:^6.5.0"
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+    react-native-web: "*"
+  peerDependenciesMeta:
+    react-native:
+      optional: true
+    react-native-web:
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@scornz/eslint-config@npm:1.0.0, @scornz/eslint-config@workspace:frontend/packages/eslint-config":
+  version: 0.0.0-use.local
+  resolution: "@scornz/eslint-config@workspace:frontend/packages/eslint-config"
+  dependencies:
+    "@typescript-eslint/eslint-plugin": "npm:^5.62.0"
+    "@typescript-eslint/parser": "npm:^5.62.0"
+    eslint: "npm:^8.57.0"
+    eslint-config-universe: "npm:^12.1.0"
+    prettier: "npm:^3.2.5"
+    typescript: "npm:^5.5.4"
+  languageName: unknown
+  linkType: soft
+
 "@scornz/mobile@workspace:frontend/apps/mobile":
   version: 0.0.0-use.local
   resolution: "@scornz/mobile@workspace:frontend/apps/mobile"
   dependencies:
-    "@acme/eslint-config": "npm:1.0.0"
-    "@acme/feature-home": "npm:1.0.0"
     "@babel/core": "npm:^7.24.5"
     "@expo/metro-runtime": "npm:^3.2.1"
+    "@scornz/api": "npm:*"
+    "@scornz/eslint-config": "npm:1.0.0"
     "@types/react": "npm:~18.2.79"
     "@types/react-dom": "npm:~18.2.25"
     babel-preset-expo: "npm:~11.0.11"
@@ -3776,7 +3747,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@scornz/web@workspace:frontend/apps/web"
   dependencies:
-    "@acme/eslint-config": "npm:1.0.0"
+    "@scornz/eslint-config": "npm:1.0.0"
     "@types/react": "npm:^18.3.3"
     "@types/react-dom": "npm:^18.3.0"
     "@typescript-eslint/eslint-plugin": "npm:^7.15.0"
