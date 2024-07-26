@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@acme/app-mobile",
+  "name": "@scornz/mobile",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
